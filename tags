@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Activation	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from keras.layers import Dense, Activation, Dropout$/;"	i
+BeautifulSoup	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from bs4 import BeautifulSoup$/;"	i
+Dense	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from keras.layers import Dense, Activation, Dropout$/;"	i
+Dropout	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from keras.layers import Dense, Activation, Dropout$/;"	i
+LSTM	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from keras.layers import LSTM$/;"	i
+RMSprop	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from keras.optimizers import RMSprop$/;"	i
+Sequential	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from keras.models import Sequential$/;"	i
+X	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^X = np.zeros((len(sentences), maxlen, len(chars)), dtype=np.bool)$/;"	v
+all_text	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^        all_text = all_text + ' ' + str$/;"	v
+all_text	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^all_text = ''$/;"	v
+avg_price_1year	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^avg_price_1year = 0$/;"	v
+avg_price_1year	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^avg_price_1year = round(sum_price \/ (i+1) , -2) $/;"	v
+char_indices	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^char_indices = dict((c, i) for i, c in enumerate(chars))  $/;"	v
+chars	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^chars = sorted(list(set(text_split)))$/;"	v
+codecs	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^import codecs$/;"	i
+d_code	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^d_code = list(dp_code.d_code)$/;"	v
+df	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^df = pd.read_table('yang_30.txt', sep='\\n' , header = None)$/;"	v
+dp_code	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^dp_code = pd.read_csv('d_code.csv')$/;"	v
+dp_code_dic	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^dp_code_dic = dict(zip(dp_code.d_code , dp_code.price))$/;"	v
+generated	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^        generated = ''$/;"	v
+generated_all	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^generated_all = []$/;"	v
+get_file	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^from keras.utils.data_utils import get_file$/;"	i
+indices_char	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^indices_char = dict((i, c) for i, c in enumerate(chars))  $/;"	v
+maxlen	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^maxlen = 5$/;"	v
+model	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^model = Sequential()$/;"	v
+next_char	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^            next_char = indices_char[next_index]$/;"	v
+next_chars	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^next_chars = []$/;"	v
+next_index	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^            next_index = sample(preds, diversity)$/;"	v
+np	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^import numpy as np$/;"	i
+optimizer	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^optimizer = RMSprop(lr=0.015)$/;"	v
+pd	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^import pandas as pd$/;"	i
+preds	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^            preds = model.predict(x, verbose=0)[0]$/;"	v
+random	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^import random, sys$/;"	i
+sample	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^def sample(preds, temp=1.0):$/;"	f
+sentence	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^            sentence = " ".join(sentence.split(" ")[1:]) + " " + next_char$/;"	v
+sentence	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^        sentence = "S FG391"$/;"	v
+sentences	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^sentences = []$/;"	v
+step	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^step = 1$/;"	v
+sum_price	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^sum_price = 0 $/;"	v
+sys	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^import random, sys$/;"	i
+text	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^text = all_text$/;"	v
+text_split	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^text_split = text.split(" ")$/;"	v
+x	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^            x = np.zeros((1, maxlen, len(chars)))$/;"	v
+y	deepda_deeplearning/ch_01/01_disease_pattern/d_code.py	/^y = np.zeros((len(sentences), len(chars)), dtype=np.bool)$/;"	v
