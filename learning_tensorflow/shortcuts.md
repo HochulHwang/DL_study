@@ -3,6 +3,7 @@
 ## Command mode  
 * basics  
 > h - displays the shortcuts  
+> enter - enable edit/command mode  
 > f - find and replace  
 > enter - change to edit mode  
 > x - cut selected cells  
@@ -19,18 +20,28 @@
 > shift+enter - run cell and select below  
 > ctrl+enter - run selected cells  
 > cmd+enter - run cell and insert below  
-* converts  
+* convert  
 > y - change cell to code  
 > m - change cell to markdown  
 > r - change cell to raw  
-* moves  
+* move  
 > same as vim (j,k)  
 > extend cells using shift+j,k  
 * scroll  
 > shift+space - scroll up  
 > space - scroll down  
-* inserts  
+* insert  
 > a - insert cell above  
 > b - insert cell below  
 
 ## Edit mode  
+> cmd+] - indent  
+> cmd+[ - dedent  
+> cmd+a - select all  
+> cmd+/ - comment  
+> cmd+d - delete whole line  
+> cmd+up\down - go to cell start/end  
+> shift+enter - run cell, select below  
+> ctrl+enter - run selected cells  
+> option+enter - run cell and insert below  
+> ctrl+shift+minus - split cell at cursor  
