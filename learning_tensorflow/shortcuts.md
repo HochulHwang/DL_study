@@ -20,6 +20,7 @@
 > shift+enter - run cell and select below  
 > ctrl+enter - run selected cells  
 > cmd+enter - run cell and insert below  
+> ctrl+r - run all
 * convert  
 > y - change cell to code  
 > m - change cell to markdown  

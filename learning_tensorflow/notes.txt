@@ -1,9 +1,21 @@
 *** Learning TensorFlow ***
-* chapter 1. *
+* chapter 1 *
     - tensor: 다차원 배열
     - 텐서플로에서 계산은 dataflow graph로 처리된다
         - 보통 이 그래프에서 꼭지점은 더하기나 곱하기 같은 연산을 나타냄
         - 변은 이 시스템을 돌아다니는 데이터(텐서)를 나타냄
     - tensorflow 내부는 C++
     - tensorBoard
+
+* chapter 2 *
+    - CNN code
+        - in 02_mnist_softmax.ipynb
+
+* chapter 3 (graphs, constants, placeholders, variables) *
+    * operation graph 
+        - allow the dependency relationship for computation optimization
+    * graph, session, patch
+        - there are two steps in tensorflow operation - there are two steps
+          (1. build, 2.run)
+        - if we import tensorflow, at that moment there is an empty graph
 
