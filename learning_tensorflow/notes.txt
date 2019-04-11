@@ -12,10 +12,41 @@
         - in 02_mnist_softmax.ipynb
 
 * chapter 3 (graphs, constants, placeholders, variables) *
-    * operation graph 
+    - operation graph 
         - allow the dependency relationship for computation optimization
-    * graph, session, patch
+    - graph, session, fetches
         - there are two steps in tensorflow operation - there are two steps
           (1. build, 2.run)
         - if we import tensorflow, at that moment there is an empty graph
-
+    - fetches -> element input of sess.run()
+    - numpy type
+        - python package
+    - one of tensorflow's advantage is that it is possible to run partial code
+      regardless of the complexity
+    - the session ends when finished "with statement"
+    - 세션을 실행하기 전 연산-텐서객체-연산-텐서객체 frame 은 만들어져 있다
+        - session 실행을 시켜야 실제 데이터가 그래프에서 흘러간다
+            - 연산=텐서객체=연산=텐서객체
+    - source operation
+    - data type
+        - * 텐서플로의 각 텐서 객체는 저마다의 name, shape, dtype 같은 속성이
+          있다
+        - 텐서 객체를 만들 때 데이터 타입을 지정하여 명시적으로 선택할 수도
+          있다
+        - type 확인: > print(c.dtype)
+    - 형변환
+        - x = tf.cast(x,tf.int64)
+    - tensor array and shape
+       - scalar(1*1), vector(1*n), matrix(n*n), tensor(n*n*n) => tensor
+       - c.get_shape() -> outputs as tuple
+            - # of elements in tuple -> dimension of tensor
+            - (2,2,3) => 3차원 텐서
+                - 쉽게 읽는 방법은 가장 바깥 []을 제외하고 안쪽으로 []의
+                  개수를 읽는다
+            - (3,) => vector, () => scalar
+    - matmul
+        - > tf.matmul(A,x)
+        - transpose > tf.transpos(a)
+    - name
+        - name is different from variable name
+            > c1 = tf.constant(4,dtype=tf.float64,name='c')
