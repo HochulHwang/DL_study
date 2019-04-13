@@ -1,3 +1,3 @@
 # deep learning study using books  
-- TensorFlow  
+- TensorFlow-1.13.1
 - Jupyter Notebook  
